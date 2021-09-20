@@ -1,0 +1,565 @@
+// app global css in SCSS form
+/* app global css */
+@font-face {
+  font-family: 'Segoe Pro Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe Pro Regular'), url('font/SegoePro-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe Pro Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe Pro Bold'), url('font/SegoePro-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe Pro Display Semibold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe Pro Display Semibold'), url('font/SegoeProDisplay-Semibold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe Pro Display Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe Pro Display Bold'), url('font/SegoeProDisplay-Bold.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Segoe Pro Display SemiLight';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe Pro Display SemiLight'), url('font/SegoeProDisplay-Semilight.woff') format('woff');
+}
+
+.text-weight-bold {
+  font-family: "Segoe Pro Display Semibold"
+}
+
+.text-weight-bolder {
+  font-family: "Segoe Pro Display Bold"
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: solid 2px #fff;
+  background: #bcbab7;
+  min-height: 40px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+body, html {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  color: rgb(0, 0, 0) !important;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  transition: all;
+  transition-duration: 300ms;
+  position: relative;
+  transition-timing-function: linear;
+  background: #f0f2f5;
+  font-size: 13px;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 400;
+  height: auto;
+  line-height: 22px;
+  text-indent: 0px;
+  text-size-adjust: 100%;
+  visibility: visible;
+}
+.bg-body{
+  background:#f0f2f5 !important;
+}
+a{
+  text-decoration: none;
+}
+
+.q-card{
+
+}
+.card-no-border{
+  box-shadow: none !important
+}
+.bg-background{
+  background: #EAEBEF;
+}
+.bg-white{
+  background: #FAFAFD;
+}
+.text-weight-bolder {
+  font-family: 'Segoe Pro Display Bold';
+}
+
+.bg-body {
+  background: white;
+}
+
+
+
+.logo_ {
+  font-weight: 600;
+  color: #1E2B3B;
+  font-size: 16px;
+}
+
+.router-position {
+  font-weight: 300;
+  color: #1E2B3B;
+  font-size: 14px;
+  opacity: .5;
+
+}
+
+body, html {
+  height: 100%
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #111;
+}
+
+::-webkit-scrollbar {
+
+
+}
+
+::-webkit-scrollbar-thumb {
+
+}
+
+.balance-label {
+  letter-spacing: 1.3px
+}
+
+/*Layout */
+.balance {
+  color: #1dbf73;
+  font-weight: 900;
+}
+
+.tiny-dropdown-menu {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.text-11 {
+  font-size: 10px;
+}
+
+.text-14 {
+  font-size: 14px;
+}
+
+
+.hot {
+  color: #e21f91;
+}
+
+.copyright {
+  color: rgba(99, 114, 147, .4);
+  font-weight : 300;
+  margin-left: 5px;
+  margin-bottom: -10px;
+  text-align: center;
+}
+
+.payment-option {
+  width: 90%;
+}
+
+.q-menu {
+
+}
+
+.q-item__label {
+  max-width: 100%;
+  color: #424347;
+  padding-right: 2.5rem;
+  padding-left: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.elevated-card {
+  box-shadow: 0 0.2rem 0.35rem 0 rgba(0, 38, 96, .06) !important
+}
+
+.q-card {
+  box-shadow: 0 0.1rem 0.25rem 0 rgba(0, 53, 136, .15)
+
+}
+
+
+.con-img-upload .img-upload .text-archive span {
+  font-size: .5em;
+}
+
+.q-date--landscape-standard {
+
+}
+
+#client_task {
+  font-size: 12px;
+}
+
+.bg-f9 {
+  background: #f1f1f1;
+}
+
+.vs-tabs--li {
+  color: #1E2B3B;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 2;
+  opacity: .9
+}
+
+.con-ul-tabs {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  background: transparent;
+}
+
+.bg-default {
+  background: white
+}
+
+.fbtn {
+  background: #4568b2 !important;
+  border-color: transparent !important;
+  color: #ffffff !important;
+}
+
+/*
+Set container widths
+ */
+
+@media (min-width: 1000px) {
+  .container {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 80%;
+  }
+}
+
+
+.container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.q-menu .q-position-engine .scroll:before {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  left: calc(50% - 10px);
+  border-top: 10px solid rebeccapurple !important;
+  bottom: -10px;
+  filter: drop-shadow(0 2px 2px rgba(52, 73, 94, .1));
+}
+
+.w_popover {
+  box-shadow: 0 0.5rem 1.5rem 0 rgba(0, 53, 136, .15) !important;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.q-menu {
+  position: fixed !important;
+  display: inline-block;
+  max-width: 95vw;
+  box-shadow: 0 0.5rem 1.5rem 0 rgba(0, 53, 136, .15) !important;
+  border-radius: 4px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  outline: 0;
+  max-height: 65vh;
+  z-index: 6000;
+}
+
+.q-item__label {
+  font-size: 14px !important;
+  text-align: left !important;
+  font-weight: 400 !important;
+  line-height: 1.12 !important;
+  border-radius: 5px !important;
+  background-color: #fff !important;
+  height: 100% !important;
+  -webkit-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+  padding: 12px !important;
+  display: block !important;
+  position: relative !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+
+}
+
+.q-dialog__backdrop {
+  backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.q_menu:before {
+  border-top: 10px solid #fff;
+  bottom: -10px;
+  filter: drop-shadow(0 2px 2px rgba(52, 73, 94, .1));
+}
+
+.search_input {
+  width: 150px !important;
+  transition: width .2s;
+}
+
+
+.tsearch .q-field--outlined .q-field__control:before {
+  border: 1px solid rgba(0, 0, 0, .1) !important;
+}
+
+.facet-results-list .q-checkbox__label {
+  font-size: .9rem;
+  word-break: break-word;
+  word-wrap: break-word;
+}
+
+.q-field--standard .q-field__control:before {
+  border-bottom: 1px solid #d4dbe0;
+}
+
+.listings {
+  transition: all;
+  transition-duration: 900ms;
+  transition-timing-function: linear;
+}
+
+.listings .q-card:hover {
+  box-shadow: 0.1rem 0.3rem 0.4rem 0.1rem rgba(0, 53, 136, .15)
+}
+
+.card_shadow {
+  box-shadow: 0 5px 20px -10px #1da1f2;
+  transition: all 0.3s ease-in-out;
+}
+.card_shadow2 {
+  box-shadow: 0 5px -5px -10px #1da1f2;
+  transition: all 0.3s ease-in-out;
+}
+.card_shadow2:hover {
+  box-shadow: 0 5px 20px -10px rgba(0, 64, 128, .2);
+  transition: all 0.3s ease-in-out;
+}
+.button_shadow {
+  box-shadow: 0 0.25rem 0.75rem 0 rgba(0, 64, 128, .2);
+  transition: all 0.3s ease-in-out;
+
+}
+
+.card_shadow:hover {
+  box-shadow: 0 5px 20px -10px rgba(0, 64, 128, .2);
+  transition: all 0.3s ease-in-out;
+}
+
+.q-item__label {
+  background-color: transparent !important;
+}
+
+.q-timeline__title {
+  font-size: 14px !important;
+  font-family: "Segoe Pro Display Semibold";
+
+}
+
+.card_gig {
+  transition: all 0.3s ease-in-out;
+}
+
+.gig_title {
+  transition: all 0.1s ease-in-out;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.card_gig:hover {
+
+  transform: scale(1.005);
+}
+
+
+
+.card_gig:hover .gig_image {
+
+}
+
+.gig_title {
+  font-size: 13px;
+}
+
+.card_gig_inner {
+  background: rgba(250, 250, 250, .3)
+}
+
+.card_gig_inner7 {
+  background: rgba(250, 250, 250, .7)
+}
+
+.gig_card_item {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  min-height: 3.5vh
+}
+
+.q-field--filled .q-field__control {
+  background: white !important;
+  box-shadow: none;
+  text-overflow: ellipsis;
+  font-weight: 600 !important;
+  color: rgb(14, 19, 24) !important;
+}
+
+label {
+  display: block;
+  position: relative;
+  font-size: 14px;
+  line-height: 14px;
+  white-space: nowrap;
+  color: #808080;
+}
+.search .q-field--filled .q-field__control {
+  background: white !important;
+  box-shadow : 0px 0px 0px 1px #e7e7e9 inset;
+  color: rgb(14, 19, 24) !important;
+}
+.title{
+  color: #808080;
+  margin-right: 10px;
+  flex-shrink: 0;
+  white-space: nowrap;
+  text-align: left;
+}
+.font-15{
+  font-size: 15px;
+}
+
+
+.q-splitter__separator {
+  background-color: rgba(0,0,0,0.0) !important;
+}
+.bg-green-5 {
+  background: #34a853 !important;
+}
+.text-orange {
+  color: #ffd470 !important;
+}
+.q-rating__icon {
+  opacity: 1 !important;
+  box-shadow: none !important;
+  transition: transform 0.2s ease-in, opacity 0.2s ease-in;
+}
+.text-2{
+  color: #454d5c !important;
+}
+.text-3{
+  color: #636a77 !important;
+}
+.q-dark{
+  background: transparent;
+}
+
+.bg-transparent2 {
+  background: rgba(233, 234, 238, .77) !important;
+}
+.bg-transparent3 {
+  background: rgba(233, 234, 238, .1) !important;
+}
+.hoverable{
+  transition: transform .5s ease;
+}
+.hoverable:hover{
+  transform: scale(1.05);
+}
+.hoverable2{
+  transition: transform .5s ease;
+}
+.hoverable2:hover{
+  transform: scale(1.009);
+}
+.label{
+  font-size: 1em;
+  font-weight: 500;
+}
+.q-rating {
+  color: #ffbf00 !important;
+  vertical-align: middle;
+}
+.q-rating__icon {
+  color: currentColor;
+  text-shadow: none !important;
+  position: relative;
+  opacity: 1 !important;
+  transition: transform 0.2s ease-in, opacity 0.2s ease-in;
+}
+.q-table th {
+  font-weight: 600 !important;
+  color: rgb(3, 3, 3);
+
+}
+.q-table thead {
+  background: #f7f7f7;
+  border-radius: 20px !important;
+}
+.q-dialog__backdrop {
+  backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.25);
+}
+.text-dark{
+  color: rgb(0, 35, 75) !important;
+}
+label{
+  margin-bottom: 8px;
+  font-weight: 600 !important;
+  color: #000;
+}
+.elevated-header{
+  box-shadow: rgb(0 0 0 / 8%) 0px 1px 12px !important;
+}
+.bg-blue-1{
+  background: rgba(21, 178, 229, .06) !important;
+}

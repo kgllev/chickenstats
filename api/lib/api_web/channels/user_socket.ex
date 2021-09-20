@@ -2,7 +2,7 @@ defmodule ApiWeb.UserSocket do
   use Phoenix.Socket
 
   ## Channels
-  # channel "room:*", ApiWeb.RoomChannel
+   channel "chicken_derby", ApiWeb.DerbyChannel
 
   # Socket params are passed from the client and can
   # be used to verify and authenticate a user. After

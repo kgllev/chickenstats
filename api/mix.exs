@@ -42,7 +42,13 @@ defmodule Api.MixProject do
       {:telemetry_poller, "~> 0.4"},
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
-      {:plug_cowboy, "~> 2.0"}
+      {:plug_cowboy, "~> 2.0"},
+      {:httpoison, "~> 1.8"},
+      {:quantum, "~> 3.0"},
+      {:cachex, "~> 3.4"},
+      {:cors_plug, "~> 2.0"},
+      {:floki, "~> 0.31.0"}
+
     ]
   end
 

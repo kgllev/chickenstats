@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jumper" type="mix">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/deps/jumper/lib" />
+    </SOURCES>
+  </library>
+</component>

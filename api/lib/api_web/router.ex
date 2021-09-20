@@ -7,6 +7,10 @@ defmodule ApiWeb.Router do
 
   scope "/api", ApiWeb do
     pipe_through :api
+
+    scope "/chicken-derby", ChickenDerby do
+      resources "/", ChickenRunnerController, only: [:index, :create]
+    end
   end
 
   # Enables LiveDashboard only for development

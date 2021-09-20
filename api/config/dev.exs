@@ -1,13 +1,14 @@
 use Mix.Config
 
 # Configure your database
-config :api, Api.Repo,
-  username: "postgres",
-  password: "postgres",
-  database: "api_dev",
-  hostname: "localhost",
-  show_sensitive_data_on_connection_error: true,
-  pool_size: 10
+config :api,
+       Api.Repo,
+       username: "postgres",
+       password: "Ss2##ksj15",
+       database: "chicken_stats_dev",
+       hostname: "localhost",
+       show_sensitive_data_on_connection_error: true,
+       pool_size: 10
 
 # For development, we disable any cache and enable
 # debugging and code reloading.
@@ -15,12 +16,15 @@ config :api, Api.Repo,
 # The watchers configuration can be used to run external
 # watchers to your application. For example, we use it
 # with webpack to recompile .js and .css sources.
-config :api, ApiWeb.Endpoint,
-  http: [port: 4000],
-  debug_errors: true,
-  code_reloader: true,
-  check_origin: false,
-  watchers: []
+config :api,
+       ApiWeb.Endpoint,
+       http: [
+         port: 4000
+       ],
+       debug_errors: true,
+       code_reloader: true,
+       check_origin: false,
+       watchers: []
 
 # ## SSL Support
 #
